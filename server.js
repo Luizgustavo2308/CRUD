@@ -42,5 +42,5 @@ server.delete('/filmes/:index', (req, res) => {
     filmes.splice(index, 1);
     return res.json({ message: "o curso foi apagado" });
 });
-
+//kk
 server.listen(3000);
